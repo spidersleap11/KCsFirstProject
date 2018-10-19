@@ -3,7 +3,7 @@
     Dim B = 0
     Dim C = 0
     Dim D = 0
-    Dim E = 0
+    Dim J = 0
     Dim F = 0
     Dim G = 0
     Dim H = 0
@@ -26,7 +26,7 @@
     End Sub
 
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-        Label5.Text = e
+        Label5.Text = J
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click

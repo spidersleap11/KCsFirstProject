@@ -80,7 +80,8 @@ Partial Class Form1
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(53, 51)
         Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "0"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label2
         '
@@ -89,7 +90,8 @@ Partial Class Form1
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(53, 51)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "0"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3
         '
@@ -98,7 +100,8 @@ Partial Class Form1
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(53, 51)
         Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Label3"
+        Me.Label3.Text = "0"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label4
         '
@@ -107,7 +110,8 @@ Partial Class Form1
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(53, 51)
         Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Label4"
+        Me.Label4.Text = "0"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
@@ -116,7 +120,8 @@ Partial Class Form1
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(53, 51)
         Me.Label5.TabIndex = 8
-        Me.Label5.Text = "Label5"
+        Me.Label5.Text = "0"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label6
         '
@@ -125,7 +130,8 @@ Partial Class Form1
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(53, 51)
         Me.Label6.TabIndex = 9
-        Me.Label6.Text = "Label6"
+        Me.Label6.Text = "0"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
         '
@@ -134,7 +140,8 @@ Partial Class Form1
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(53, 51)
         Me.Label7.TabIndex = 10
-        Me.Label7.Text = "Label7"
+        Me.Label7.Text = "0"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label8
         '
@@ -143,7 +150,8 @@ Partial Class Form1
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(53, 51)
         Me.Label8.TabIndex = 11
-        Me.Label8.Text = "Label8"
+        Me.Label8.Text = "0"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label9
         '
@@ -152,7 +160,8 @@ Partial Class Form1
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(53, 51)
         Me.Label9.TabIndex = 12
-        Me.Label9.Text = "Label9"
+        Me.Label9.Text = "0"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
