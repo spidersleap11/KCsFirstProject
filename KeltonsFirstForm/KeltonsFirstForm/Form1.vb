@@ -47,6 +47,29 @@
 
     Private Sub AddToCorners_Click(sender As Object, e As EventArgs) Handles AddToCorners.Click
         A = A + 1
+        C = C + 1
+        G = G + 1
+        I = I + 1
+    End Sub
+
+    Private Sub AddToOutside_Click(sender As Object, e As EventArgs) Handles AddToOutside.Click
+        A = A + 1
+        B = B + 1
+        C = C + 1
+        D = D + 1
+        F = F + 1
+        G = G + 1
+        H = H + 1
+        I = I + 1
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        D = D + 1
+        J = J + 1
+        F = F + 1
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
 
     End Sub
 End Class
