@@ -9,6 +9,7 @@
     Dim H = 0
     Dim I = 0
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        Label1.Text = A
 
     End Sub
 
