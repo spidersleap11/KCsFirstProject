@@ -44,4 +44,9 @@
     Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
         Label9.Text = I
     End Sub
+
+    Private Sub AddToCorners_Click(sender As Object, e As EventArgs) Handles AddToCorners.Click
+        A = A + 1
+
+    End Sub
 End Class
