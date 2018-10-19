@@ -70,6 +70,8 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-
+        B = B + 1
+        J = J + 1
+        H = H + 1
     End Sub
 End Class
