@@ -1,9 +1,8 @@
-﻿Public Class Public Sub RefreshLabel(Of)
+﻿Public Class Form1 Public Sub RefreshLabel(Of)
         Label1.Text = A
         label2.Text = B
         label3.text = C
     End Sub
-        Form1
     Dim A = 0
     Dim B = 0
     Dim C = 0
