@@ -24,8 +24,8 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.AddToCorners = New System.Windows.Forms.Button()
         Me.AddToOutside = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.AddToCenterHorizontal = New System.Windows.Forms.Button()
+        Me.AddToCenterVertical = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -55,23 +55,23 @@ Partial Class Form1
         Me.AddToOutside.Text = "Add 1 To Outside"
         Me.AddToOutside.UseVisualStyleBackColor = True
         '
-        'Button3
+        'AddToCenterHorizontal
         '
-        Me.Button3.Location = New System.Drawing.Point(23, 105)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(70, 38)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.AddToCenterHorizontal.Location = New System.Drawing.Point(23, 105)
+        Me.AddToCenterHorizontal.Name = "AddToCenterHorizontal"
+        Me.AddToCenterHorizontal.Size = New System.Drawing.Size(70, 52)
+        Me.AddToCenterHorizontal.TabIndex = 2
+        Me.AddToCenterHorizontal.Text = "Add 1 To Center Horizontal"
+        Me.AddToCenterHorizontal.UseVisualStyleBackColor = True
         '
-        'Button4
+        'AddToCenterVertical
         '
-        Me.Button4.Location = New System.Drawing.Point(23, 149)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(70, 39)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.AddToCenterVertical.Location = New System.Drawing.Point(23, 163)
+        Me.AddToCenterVertical.Name = "AddToCenterVertical"
+        Me.AddToCenterVertical.Size = New System.Drawing.Size(70, 52)
+        Me.AddToCenterVertical.TabIndex = 3
+        Me.AddToCenterVertical.Text = "Add 1 To Center Vertical"
+        Me.AddToCenterVertical.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -177,8 +177,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.AddToCenterVertical)
+        Me.Controls.Add(Me.AddToCenterHorizontal)
         Me.Controls.Add(Me.AddToOutside)
         Me.Controls.Add(Me.AddToCorners)
         Me.Name = "Form1"
@@ -189,8 +189,8 @@ Partial Class Form1
 
     Friend WithEvents AddToCorners As Button
     Friend WithEvents AddToOutside As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents AddToCenterHorizontal As Button
+    Friend WithEvents AddToCenterVertical As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label

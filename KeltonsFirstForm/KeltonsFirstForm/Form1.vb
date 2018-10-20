@@ -76,14 +76,14 @@
         RefreshLabel()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles AddToCenterHorizontal.Click
         D = D + 1
         J = J + 1
         F = F + 1
         RefreshLabel()
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles AddToCenterVertical.Click
         B = B + 1
         J = J + 1
         H = H + 1
