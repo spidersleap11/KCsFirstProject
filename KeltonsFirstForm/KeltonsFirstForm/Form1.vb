@@ -3,6 +3,12 @@
         Label1.Text = A
         Label2.Text = B
         Label3.Text = C
+        Label4.Text = D
+        Label5.Text = J
+        Label6.Text = F
+        Label7.Text = G
+        Label8.Text = H
+        Label9.Text = I
     End Sub
     Dim A = 0
     Dim B = 0
