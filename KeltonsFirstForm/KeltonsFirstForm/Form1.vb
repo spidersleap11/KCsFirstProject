@@ -61,6 +61,7 @@
         C = C + 1
         G = G + 1
         I = I + 1
+        RefreshLabel()
     End Sub
 
     Private Sub AddToOutside_Click(sender As Object, e As EventArgs) Handles AddToOutside.Click
@@ -72,17 +73,20 @@
         G = G + 1
         H = H + 1
         I = I + 1
+        RefreshLabel()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         D = D + 1
         J = J + 1
         F = F + 1
+        RefreshLabel()
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         B = B + 1
         J = J + 1
         H = H + 1
+        RefreshLabel()
     End Sub
 End Class
