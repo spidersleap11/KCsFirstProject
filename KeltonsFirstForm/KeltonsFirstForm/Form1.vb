@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Public Sub RefreshLabel(Of)()
+    Public Sub RefreshLabelOf()
         Label1.Text = A
         Label2.Text = B
         Label3.Text = C
