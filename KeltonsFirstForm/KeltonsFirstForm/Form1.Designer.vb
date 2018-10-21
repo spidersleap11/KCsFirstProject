@@ -39,36 +39,40 @@ Partial Class Form1
         '
         'AddToCorners
         '
-        Me.AddToCorners.Location = New System.Drawing.Point(23, 15)
+        Me.AddToCorners.Location = New System.Drawing.Point(31, 18)
+        Me.AddToCorners.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.AddToCorners.Name = "AddToCorners"
-        Me.AddToCorners.Size = New System.Drawing.Size(70, 39)
+        Me.AddToCorners.Size = New System.Drawing.Size(93, 48)
         Me.AddToCorners.TabIndex = 0
         Me.AddToCorners.Text = "add 1 to Corners"
         Me.AddToCorners.UseVisualStyleBackColor = True
         '
         'AddToOutside
         '
-        Me.AddToOutside.Location = New System.Drawing.Point(23, 60)
+        Me.AddToOutside.Location = New System.Drawing.Point(31, 74)
+        Me.AddToOutside.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.AddToOutside.Name = "AddToOutside"
-        Me.AddToOutside.Size = New System.Drawing.Size(70, 39)
+        Me.AddToOutside.Size = New System.Drawing.Size(93, 48)
         Me.AddToOutside.TabIndex = 1
         Me.AddToOutside.Text = "Add 1 To Outside"
         Me.AddToOutside.UseVisualStyleBackColor = True
         '
         'AddToCenterHorizontal
         '
-        Me.AddToCenterHorizontal.Location = New System.Drawing.Point(23, 105)
+        Me.AddToCenterHorizontal.Location = New System.Drawing.Point(31, 129)
+        Me.AddToCenterHorizontal.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.AddToCenterHorizontal.Name = "AddToCenterHorizontal"
-        Me.AddToCenterHorizontal.Size = New System.Drawing.Size(70, 52)
+        Me.AddToCenterHorizontal.Size = New System.Drawing.Size(93, 64)
         Me.AddToCenterHorizontal.TabIndex = 2
         Me.AddToCenterHorizontal.Text = "Add 1 To Center Horizontal"
         Me.AddToCenterHorizontal.UseVisualStyleBackColor = True
         '
         'AddToCenterVertical
         '
-        Me.AddToCenterVertical.Location = New System.Drawing.Point(23, 163)
+        Me.AddToCenterVertical.Location = New System.Drawing.Point(31, 201)
+        Me.AddToCenterVertical.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.AddToCenterVertical.Name = "AddToCenterVertical"
-        Me.AddToCenterVertical.Size = New System.Drawing.Size(70, 52)
+        Me.AddToCenterVertical.Size = New System.Drawing.Size(93, 64)
         Me.AddToCenterVertical.TabIndex = 3
         Me.AddToCenterVertical.Text = "Add 1 To Center Vertical"
         Me.AddToCenterVertical.UseVisualStyleBackColor = True
@@ -76,9 +80,10 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label1.Location = New System.Drawing.Point(166, 39)
+        Me.Label1.Location = New System.Drawing.Point(221, 48)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(53, 51)
+        Me.Label1.Size = New System.Drawing.Size(70, 62)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "0"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -86,9 +91,10 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label2.Location = New System.Drawing.Point(216, 39)
+        Me.Label2.Location = New System.Drawing.Point(288, 48)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 51)
+        Me.Label2.Size = New System.Drawing.Size(70, 62)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "0"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -96,9 +102,10 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label3.Location = New System.Drawing.Point(263, 39)
+        Me.Label3.Location = New System.Drawing.Point(351, 48)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 51)
+        Me.Label3.Size = New System.Drawing.Size(70, 62)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "0"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -106,9 +113,10 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label4.Location = New System.Drawing.Point(166, 90)
+        Me.Label4.Location = New System.Drawing.Point(221, 111)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 51)
+        Me.Label4.Size = New System.Drawing.Size(70, 62)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "0"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -116,9 +124,10 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label5.Location = New System.Drawing.Point(216, 90)
+        Me.Label5.Location = New System.Drawing.Point(288, 111)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(53, 51)
+        Me.Label5.Size = New System.Drawing.Size(70, 62)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "0"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -126,9 +135,10 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label6.Location = New System.Drawing.Point(263, 90)
+        Me.Label6.Location = New System.Drawing.Point(351, 111)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(53, 51)
+        Me.Label6.Size = New System.Drawing.Size(70, 62)
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "0"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -136,9 +146,10 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label7.Location = New System.Drawing.Point(166, 141)
+        Me.Label7.Location = New System.Drawing.Point(221, 174)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(53, 51)
+        Me.Label7.Size = New System.Drawing.Size(70, 62)
         Me.Label7.TabIndex = 10
         Me.Label7.Text = "0"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -146,9 +157,10 @@ Partial Class Form1
         'Label8
         '
         Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label8.Location = New System.Drawing.Point(216, 141)
+        Me.Label8.Location = New System.Drawing.Point(288, 174)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(53, 51)
+        Me.Label8.Size = New System.Drawing.Size(70, 62)
         Me.Label8.TabIndex = 11
         Me.Label8.Text = "0"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -156,18 +168,19 @@ Partial Class Form1
         'Label9
         '
         Me.Label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label9.Location = New System.Drawing.Point(263, 141)
+        Me.Label9.Location = New System.Drawing.Point(351, 174)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(53, 51)
+        Me.Label9.Size = New System.Drawing.Size(70, 62)
         Me.Label9.TabIndex = 12
         Me.Label9.Text = "0"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(913, 430)
+        Me.ClientSize = New System.Drawing.Size(1217, 529)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -181,6 +194,7 @@ Partial Class Form1
         Me.Controls.Add(Me.AddToCenterHorizontal)
         Me.Controls.Add(Me.AddToOutside)
         Me.Controls.Add(Me.AddToCorners)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.Text = "Add One To Outside"
         Me.ResumeLayout(False)
